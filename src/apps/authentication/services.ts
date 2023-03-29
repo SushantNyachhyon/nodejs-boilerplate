@@ -35,7 +35,10 @@ export class AuthService implements IAuthService {
 
     async login(email: string, password: string): Promise<IToken> {
         const user = await this.authenticate(email, password);
-        return { accessType: 'Bearer', accessToken: await this.createToken(user._id) };
+        return {
+            accessType: 'Bearer',
+            accessToken: await this.createToken(user._id)
+        };
     }
 
     async me(_id: string): Promise<IUser> {

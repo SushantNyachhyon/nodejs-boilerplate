@@ -36,7 +36,12 @@ export class App extends Application {
         });
 
         server.exceptionHandler(app => {
-            app.use((err: HTTPException, _req: Request, res: Response, next: NextFunction) => {
+            app.use((
+                err: HTTPException,
+                _req: Request,
+                res: Response,
+                next: NextFunction
+            ) => {
                 res.status(err.status).json({
                     error: {
                         type: err.type,

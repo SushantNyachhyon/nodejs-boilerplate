@@ -8,3 +8,12 @@ export type IRequest = Request & {
 export type IPrincipal = {
     details: IUser
 }
+
+type ErrorIssue = {
+    type: string;
+    msg: string;
+}
+
+export type Errors = {
+    [key: string]:  ErrorIssue;
+}

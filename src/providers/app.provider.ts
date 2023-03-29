@@ -15,8 +15,12 @@ export class AppProvider extends ContainerModule {
         super(bind => {
             bind<DBContext>(DBContext).toSelf().inSingletonScope();
 
-            bind<IUserRepository>(TYPES.UserRepository).to(UserRepository).inSingletonScope();
-            bind<IAuthService>(TYPES.AuthService).to(AuthService).inSingletonScope();
+            bind<IUserRepository>(TYPES.UserRepository)
+                .to(UserRepository)
+                .inSingletonScope();
+            bind<IAuthService>(TYPES.AuthService)
+                .to(AuthService)
+                .inSingletonScope();
         });
     }
 }

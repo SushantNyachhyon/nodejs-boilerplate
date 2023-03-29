@@ -1,4 +1,7 @@
-import { InversifyExpressServer, ConfigFunction } from 'inversify-express-utils';
+import {
+    InversifyExpressServer,
+    ConfigFunction
+} from 'inversify-express-utils';
 import type { Container } from 'inversify';
 
 import { config } from '@/config';
