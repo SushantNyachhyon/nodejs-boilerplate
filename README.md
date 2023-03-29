@@ -3,6 +3,13 @@
 ![nodejs](https://img.shields.io/badge/Nodejs-282C34?style=for-the-badge&logo=node.js)&nbsp;![typescript](https://img.shields.io/badge/Typescript-282C34?style=for-the-badge&logo=typescript)&nbsp;![express](https://img.shields.io/badge/Express-282C34?style=for-the-badge&logo=express)&nbsp;![mongodb](https://img.shields.io/badge/MongoDB-282C34?style=for-the-badge&logo=mongodb)
 A [Node.js](https://nodejs.org/en) boilerplate following Enterprise application Structure with Service Repository Pattern.
 
+# Contents
+
+* [Features](#features)
+* [Global Requirement](#global-requirement)
+* [Install, Configure & Run](#install-configure--run)
+* [Available Scripts](#available-scripts)
+
 ### Features
 * [Node.js](https://nodejs.org/en) with [Express](https://expressjs.com/) framework for RestAPI.
 * Use of [Typescript](https://www.typescriptlang.org/) for statically typed business logic.
@@ -13,12 +20,6 @@ A [Node.js](https://nodejs.org/en) boilerplate following Enterprise application 
 * Fully configured [MongoDB](https://www.mongodb.com/) environment with [Mongoose](https://mongoosejs.com/) as a ODM.
 * User registration with [bcrypt](https://github.com/kelektiv/node.bcrypt.js) hashing of password with JWT tokens for authentication using [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken).
 * Beautiful log message using [morgan](https://github.com/expressjs/morgan) midddleware.
-
-
-# Contents
-
-* [Global Requisites](#global-requisites)
-* [Install, Configure & Run](#install-configure--run)
 
 ### Global Requirement
 
